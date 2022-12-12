@@ -49,7 +49,7 @@ jobs:
 
       - name: Setup Python
         if: ${{ steps.check-build.outputs.build == 'strawberry' }}
-        uses: "gabrielfalcao/pyenv-action@v10"
+        uses: "gabrielfalcao/pyenv-action@v11"
         with:
           versions: 3.10:latest, 3.7:latest
 
